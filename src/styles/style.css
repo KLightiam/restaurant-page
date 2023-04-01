@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('../assets/images/steak-with-vegetables.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#content{
+    height: 100vh;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.header{
+    background-color: rgba(200, 151, 25, 0.5);
+}
+
+.title{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar > li{
+    list-style-type: none;
+    margin: 30px 30px 12px;
+}
+
+.navbar > li:hover{
+    color:darkgreen;
+    cursor: pointer;
+}
+
+.navbar > li:active{
+    color:chartreuse;
+}
+
+#main{
+    background-color: rgba(0, 0, 0,0.3);
+    margin: 40px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color:rgb(239, 186, 11);
+}
+
+#main > p:first-child{
+    margin: 10px;
+}
+
+#main > p:last-child{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#main > img{
+    width: 50%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+
+
+.footer{
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right:0px; */
+    margin-top:auto;
+    text-align: center;
+    background-color: rgb(16, 44, 16);
+}
+
+
+
+/* MAIN CONTENTS FOR MENU TAB */
+
+.eachMeal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0,0.3);
+    font-size: 2rem;
+    border-radius: 15px;
+    flex: 1 1 auto;
+    height: 20%;
+    width: 100%;
+}
+
+.eachMeal > img{
+    width:60%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+#mainMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+    gap: 20px;
+    /* width: 80%; */
+    color:rgb(239, 186, 11);
+    
+}
